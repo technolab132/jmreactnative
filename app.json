@@ -7,7 +7,27 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "jmreactnative",
-    "slug": "jmreactnative"
+    "name": "Justice Minds",
+    "slug": "jmreactnative",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6c9b074b-0e14-473d-a65b-10a2c16c467d"
+      }
+    },
+    "icon" : "./assets/icon.png",
+    "splash" : {
+      "image" : "./assets/splash.png",
+      "backgroundColor" : "#000000"
+    },
+    "android": {
+      "package": "com.krishna13.jmreactnative",
+      "adaptiveIcon" : {
+        "foregroundImage" : "./assets/adaptive-icon.png",
+        "backgroundColor" : "#ffffff"
+      }
+    }
   }
 }
